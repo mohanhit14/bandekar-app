@@ -7,7 +7,7 @@ import {
 
 // --- CLOUD CONFIGURATION ---
 
-// I added your Render URL here automatically:
+// Your Render Backend URL
 const BACKEND_URL = 'https://bandekar-backend.onrender.com'; 
 
 const API_BASE_URL = `${BACKEND_URL}/api`;
@@ -44,7 +44,7 @@ const Navbar = ({ activeTab, setActiveTab, cartCount }) => {
           <div className="flex items-center cursor-pointer" onClick={() => setActiveTab('home')}>
             <div className="w-10 h-10 bg-amber-600 rounded-lg flex items-center justify-center text-white mr-3 shadow-lg"><ChefHat size={24} /></div>
             <div>
-              <h1 className="text-xl font-bold text-slate-900 tracking-tight">BANDEKAR</h1>
+              <h1 className="text-xl font-bold text-slate-900 tracking-tight">BANDEKAR GOA</h1>
               <p className="text-xs text-amber-600 font-medium tracking-widest uppercase">RESTAURANT AND BAR</p>
             </div>
           </div>
@@ -273,8 +273,8 @@ const Contact = () => (
         </div>
       </div>
     </div>
-  );
-};
+  </div>
+);
 
 const Footer = ({ goToNav }) => (
   <footer className="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
